@@ -1,0 +1,4 @@
+# Optional; baseline demo needs only Python's standard library.
+numpy==2.2.6
+fastembed==0.8.1
+onnxruntime==1.23.2

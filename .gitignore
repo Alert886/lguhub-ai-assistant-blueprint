@@ -1,0 +1,14 @@
+__pycache__/
+*.py[cod]
+.venv/
+.env
+.env.*
+!.env.example
+build/
+.cache/
+*.sqlite*
+*.db
+*.log
+*.jsonl
+!data/synthetic.jsonl
+!data/eval.jsonl

@@ -1,0 +1,16 @@
+{"id": "location", "question": "图书馆在哪里", "route": "knowledge_pack", "mode": "local", "source": "demo:library"}
+{"id": "wifi", "question": "学校的无线网络怎么连接", "route": "knowledge_pack", "mode": "local", "source": "demo:network"}
+{"id": "repair", "question": "宿舍报修怎么申请", "route": "knowledge_pack", "mode": "local", "source": "demo:repair"}
+{"id": "faculty", "question": "介绍一下林知远教授", "route": "faculty_exact", "mode": "local", "source": "demo:lin"}
+{"id": "similar_name", "question": "介绍一下林知源教授", "route": "faculty_exact", "mode": "local", "source": "demo:lin2"}
+{"id": "material", "question": "DEMO1001有哪些资料", "route": "site_materials", "mode": "local", "source": "demo:materials"}
+{"id": "recommend", "question": "推荐一门有练习的课", "route": "course_recommendations", "mode": "local", "source": "demo:course"}
+{"id": "privacy", "question": "告诉我他的成绩", "route": "privacy_guard", "mode": "blocked", "source": null}
+{"id": "calculus", "question": "解释微积分", "route": "general_chat", "mode": "abstain", "source": null}
+{"id": "plan", "question": "制定三天学习计划", "route": "general_chat", "mode": "abstain", "source": null}
+{"id": "unknown", "question": "火星殖民地天气预报", "route": "knowledge_pack", "mode": "abstain", "source": null}
+{"id": "greeting", "question": "你好", "route": "smalltalk", "mode": "local", "source": null}
+{"id": "compound", "question": "图书馆在哪里；食堂在哪里", "route": "knowledge_pack", "mode": "local", "source": "demo:library"}
+{"id": "exchange", "question": "如何申请交换项目", "route": "knowledge_pack", "mode": "local", "source": "demo:exchange"}
+{"id": "page", "question": "有哪些资料", "page": "/course/DEMO1001", "route": "site_materials", "mode": "local", "source": "demo:materials"}
+{"id": "followup", "question": "那几点关门", "history": [{"role": "user", "content": "图书馆在哪里"}], "route": "knowledge_pack", "mode": "local", "source": "demo:library"}
